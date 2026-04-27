@@ -2,7 +2,7 @@
 # Math/DA 314/514 - Probability Exercise
 # Binomial Distributions & Random Graph Theory
 # Author: Aaron Kapamba
-# Date: 2024
+# Date: 2025
 #
 # Topics: Binomial probability, random sampling, 
 #         network theory applications
