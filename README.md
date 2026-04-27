@@ -1,18 +1,37 @@
-# R Statistics Exercises
+# R Probability & Statistical Analysis
 
-## Binomial Distribution Analysis
+## Overview
+Collection of R scripts demonstrating probability theory, binomial distributions, and real-world applications including random graph theory and disease prevalence modeling.
 
-This repository contains R code demonstrating fundamental probability concepts:
+## Repository Contents
 
-### Contents
-- `binomial_probability_exercise.R` - Binomial distribution simulations and visualizations
+### 1. `binomial_probability_exercise.R`
+- Basic binomial probability calculations
+- Bernoulli trials simulation
+- Visualization of binomial distributions
+- R functions: `dbinom()`, `pbinom()`, `qbinom()`, `rbinom()`
 
-### Key Skills Demonstrated
-- Random sampling with `sample()`
-- Binomial functions: `dbinom()`, `pbinom()`, `qbinom()`, `rbinom()`
-- Data visualization with `barplot()`
-- Probability calculations for real-world scenarios
+### 2. `binomial_random_graphs.R`
+- Advanced binomial applications
+- Random graph theory (networks)
+- Disease prevalence modeling (chickenpox example)
+- Vertex degree distribution analysis
 
-### How to Run
+## Key Skills Demonstrated
+
+| Skill | Implementation |
+|-------|----------------|
+| Random sampling | `sample()`, `rbinom()` |
+| Probability calculations | `dbinom()`, `pbinom()` |
+| Quantile computation | `qbinom()` |
+| Data visualization | `barplot()`, `par()` |
+| Statistical inference | Binomial condition checking |
+| Real-world modeling | Disease spread, network theory |
+
+## Example Output
+
 ```r
-source("binomial_probability_exercise.R")
+> dbinom(57, 100, 0.5)
+[1] 0.03006864
+
+> P(exactly 97 had chickenpox) = 0.005891
